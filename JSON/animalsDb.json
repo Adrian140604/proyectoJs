@@ -1,0 +1,75 @@
+{
+    "animals":[
+  {
+    "nombre": "Leopardo",
+    "especie": "Panthera pardus",
+    "lugar_de_origen": "África y Asia",
+    "peso_medio_kg": 70,
+    "longevidad_anios": 17
+  },
+  {
+    "nombre": "Hipopótamo",
+    "especie": "Hippopotamus amphibius",
+    "lugar_de_origen": "África",
+    "peso_medio_kg": 1500,
+    "longevidad_anios": 40
+  },
+  {
+    "nombre": "Zorro Ártico",
+    "especie": "Vulpes lagopus",
+    "lugar_de_origen": "Regiones árticas",
+    "peso_medio_kg": 4,
+    "longevidad_anios": 11
+  },
+  {
+    "nombre": "Koala",
+    "especie": "Phascolarctos cinereus",
+    "lugar_de_origen": "Australia",
+    "peso_medio_kg": 9,
+    "longevidad_anios": 15
+  },
+  {
+    "nombre": "Avestruz",
+    "especie": "Struthio camelus",
+    "lugar_de_origen": "África",
+    "peso_medio_kg": 150,
+    "longevidad_anios": 45
+  },
+  {
+    "nombre": "Gorila Occidental",
+    "especie": "Gorilla gorilla",
+    "lugar_de_origen": "Bosques de África central",
+    "peso_medio_kg": 160,
+    "longevidad_anios": 37
+  },
+  {
+    "nombre": "Rinoceronte Blanco",
+    "especie": "Ceratotherium simum",
+    "lugar_de_origen": "África del Sur",
+    "peso_medio_kg": 2300,
+    "longevidad_anios": 50
+  },
+  {
+    "nombre": "Suricata",
+    "especie": "Suricata suricatta",
+    "lugar_de_origen": "África austral",
+    "peso_medio_kg": 0.9,
+    "longevidad_anios": 12
+  },
+  {
+    "nombre": "Tortuga Galápagos",
+    "especie": "Chelonoidis nigra",
+    "lugar_de_origen": "Islas Galápagos",
+    "peso_medio_kg": 350,
+    "longevidad_anios": 100
+  },
+  {
+    "nombre": "Camello Arábigo",
+    "especie": "Camelus dromedarius",
+    "lugar_de_origen": "Oriente Medio y África norte",
+    "peso_medio_kg": 600,
+    "longevidad_anios": 40
+  }
+]
+
+}
