@@ -9,9 +9,6 @@ const Animals= async ()=>{
                 <tr>
                     <th scope="col">Nombre</th>
                     <th scope="col">Especie</th>
-                    <th scope="col">Origen</th>
-                    <th scope="col">Peso Medio</th>
-                    <th scope="col">Longevidad</th>
                     <th scope="col">Acciones</th>
 
                 </tr>
@@ -21,10 +18,8 @@ const Animals= async ()=>{
                         animalsTable+=`<tr>
                             <td>${animal.nombre}</td>
                             <td>${animal.especie}</td>
-                            <td>${animal.lugar_de_origen}</td>
-                            <td>${animal.peso_medio_kg}</td>
-                            <td>${animal.longevidad_anios}</td>
-                            <td><a href="./About?id=${animal.id}" class="btn btn-secondary">Ver mas informacion</a></td>
+
+                            <td><a href=".#/about/${animal.id}" class="btn btn-secondary">Ver mas informacion</a></td>
 
                         <tr>`
 
