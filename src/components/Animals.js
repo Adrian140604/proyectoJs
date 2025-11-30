@@ -1,6 +1,6 @@
 
 const Animals= async ()=>{
-    const url="http://localhost:3000/animals";
+    const url="https://692c6bbcc829d464006f8644.mockapi.io/api/v1/animals";
     const response=await fetch(url);
     const animalsList=await response.json();
     let animalsTable=
