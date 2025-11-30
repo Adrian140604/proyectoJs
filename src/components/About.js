@@ -1,11 +1,11 @@
 const About = async (id) => {
     const url = "https://692c6bbcc829d464006f8644.mockapi.io/api/v1/animals";
-    const response = await fetch(url + "/" + id);
+    const response = await fetch(`${url}/${id}`);
     const animal = await response.json();
 
+    // Función para añadir a favoritos
     function addToFavorites() {
         let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-
         if (!favorites.some(a => a.id === animal.id)) {
             favorites.push(animal);
             localStorage.setItem("favorites", JSON.stringify(favorites));
@@ -13,13 +13,13 @@ const About = async (id) => {
         }
     }
 
+    // HTML con los datos del animal
     let form = `
     <div class="container mt-5">
         <div class="card shadow-lg">
             <div class="card-header bg-primary text-white">
                 <h4 class="mb-0">Detalles del Animal</h4>
             </div>
-
             <div class="card-body">
                 <form id="animalForm">
                     <div class="mb-3">
