@@ -9,6 +9,7 @@ const About = async (id) => {
         if (!favorites.some(a => a.id === animal.id)) {
             favorites.push(animal);
             localStorage.setItem("favorites", JSON.stringify(favorites));
+            alert("Añadido a favoritos correctamente");
         }
     }
 
